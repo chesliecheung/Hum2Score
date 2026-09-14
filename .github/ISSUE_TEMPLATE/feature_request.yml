@@ -1,0 +1,28 @@
+name: 功能建议
+description: 提议改进 Hum2Score 的工作流或能力
+title: "[Feature] "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 想解决的问题
+      description: 请描述实际创作场景，而不只是功能名称。
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 建议方案
+    validations:
+      required: true
+  - type: dropdown
+    id: scope
+    attributes:
+      label: 是否仍属于单声部哼唱转记谱
+      options:
+        - 是
+        - 不确定
+        - 否
+    validations:
+      required: true

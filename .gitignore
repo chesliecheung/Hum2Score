@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+work/
+outputs/
+tmp/
+dist/
+build/
+*.egg-info/
+*.hum2score
+*.wav
+*.mid
+*.midi

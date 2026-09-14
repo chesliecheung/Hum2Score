@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="142" y1="118" x2="878" y2="910" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#151329"/>
+      <stop offset="0.58" stop-color="#252052"/>
+      <stop offset="1" stop-color="#44368A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="180" y1="512" x2="760" y2="512" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8C7CFF"/>
+      <stop offset="0.42" stop-color="#B9AEFF"/>
+      <stop offset="0.43" stop-color="#F7F7F2"/>
+      <stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-25%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#070611" flood-opacity=".28"/>
+    </filter>
+  </defs>
+  <rect x="48" y="48" width="928" height="928" rx="218" fill="url(#bg)"/>
+  <path d="M182 512c74-154 151-154 225 0s151 154 225 0c52-108 102-138 142-105" fill="none" stroke="url(#accent)" stroke-width="70" stroke-linecap="round" filter="url(#soft)"/>
+  <path d="M774 407v254" fill="none" stroke="#FAFAF5" stroke-width="70" stroke-linecap="round" filter="url(#soft)"/>
+  <ellipse cx="698" cy="708" rx="112" ry="78" transform="rotate(-18 698 708)" fill="#FAFAF5" filter="url(#soft)"/>
+  <path d="M180 512c74-154 151-154 225 0" fill="none" stroke="#8B7BFF" stroke-width="12" stroke-linecap="round" opacity=".9"/>
+</svg>
