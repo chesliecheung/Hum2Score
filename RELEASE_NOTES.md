@@ -30,7 +30,7 @@ Hum2Score 是一款面向普通旋律创作者的本地桌面工具：哼出旋�
 SHA-256：
 
 ```text
-1f1372d0f941ce272a7a24406528b4ea8f095133fb1117873c5c47c22877caed  Hum2Score-v0.4.2-macOS-Apple-Silicon.zip
+0c78cb9efac86d14535e9275dee45f816a51c4aaa3ddd0f2d61573cda5ea7fba  Hum2Score-v0.4.2-macOS-Apple-Silicon.zip
 ```
 
 发布前已通过 11 项自动化测试、打包后 CREPE 音高识别测试和 macOS 应用签名完整性检查。
